@@ -122,7 +122,7 @@ export const PROJECTS = [
     title: "ระบบจัดการสต๊อกสินค้า",
     description:
       "ระบบจัดการสต๊อกสินค้าแบบครบวงจร รองรับการค้นหาและสแกนบาร์โค้ดแบบเรียลไทม์แสดงข้อมูลสินค้า คงเหลือ และประวัติการขายอย่างเป็นระบบออกแบบมาเพื่อเพิ่มความรวดเร็วและลดความผิดพลาดในการจัดการสินค้า",
-    image: "/image.Projects/Project1.jpeg",
+    image: "/image.Projects/Project1.png",
     techStack: ["React", "TailwindCSS", "Golang", "MySQL", "JWT"],
   },
   {
@@ -130,7 +130,7 @@ export const PROJECTS = [
     title: "ระบบแดชบอร์ดผู้ดูแลระบบ",
     description:
       "แดชบอร์ดสำหรับผู้ดูแลระบบ ใช้แสดงข้อมูลภาพรวมและสถิติสำคัญแบบเรียลไทม์รองรับการกำหนดสิทธิ์ผู้ใช้งานและการยืนยันตัวตนอย่างปลอดภัยออกแบบ UI ให้ใช้งานง่าย รองรับการแสดงผลทุกอุปกรณ์",
-    image: "/image.Projects/Project2.jpeg",
+    image: "/image.Projects/Project2.png",
     techStack: ["React", "MUI", "Golang", "REST API"],
   },
   {
@@ -138,7 +138,7 @@ export const PROJECTS = [
     title: "แพลตฟอร์มการเรียนรู้ออนไลน์",
     description:
       "แพลตฟอร์มการเรียนรู้ออนไลน์สำหรับจัดการบทเรียนและเนื้อหาแบบดิจิทัลรองรับระบบแบบฝึกหัด การติดตามความก้าวหน้า และสรุปผลการเรียนมุ่งเน้นประสบการณ์ผู้ใช้ที่เรียบง่ายและโต้ตอบได้อย่างลื่นไหล",
-    image: "/image.Projects/Project3.jpeg",
+    image: "/image.Projects/Project3.png",
     techStack: ["React", "TailwindCSS", "Framer Motion"],
   },
 ];
