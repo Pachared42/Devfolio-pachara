@@ -1,0 +1,55 @@
+import { useEffect } from "react";
+import Lenis from "lenis";
+
+import "./App.css";
+import Navbar from "./sections/Navbar";
+import Hero from "./sections/Hero";
+import About from "./sections/About";
+import Projects from "./sections/Projects";
+// import ImageShowcase from "./sections/ImageShowcase";
+import VideoShowcase from "./sections/VideoShowcase";
+import Education from "./sections/Education";
+import Skills from "./sections/Skills";
+import Contact from "./sections/Contact";
+import Footer from "./sections/Footer";
+
+function App() {
+  useEffect(() => {
+    const lenis = new Lenis({
+      duration: 3.5,
+      easing: (t) => 1 - Math.pow(1 - t, 4),
+      smoothWheel: true,
+      smoothTouch: false,
+    });
+
+    const raf = (time) => {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    };
+
+    requestAnimationFrame(raf);
+
+    return () => lenis.destroy();
+  }, []);
+
+  return (
+    <div className="relative min-h-screen overflow-hidden">
+      <Navbar />
+
+      <main className="flex flex-col p-5 lg:p-10">
+        <Hero />
+        <About />
+        <Projects />
+        {/* <ImageShowcase/> */}
+        <VideoShowcase/>
+        <Education />
+        <Skills />
+        <Contact />
+      </main>
+
+      <Footer />
+    </div>
+  );
+}
+
+export default App;
