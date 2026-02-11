@@ -35,7 +35,6 @@ function Navbar() {
                     <div className='flex items-center justify-center gap-6'>
                         <div>
                             <a href="/">
-                                <img src="image.decorative/Pachara.png" width={100} alt="Logo" />
                                 <h1 className='text-red-500'>Pachara</h1>
                             </a>
                         </div>
@@ -57,7 +56,6 @@ function Navbar() {
                     <div className='flex items-center justify-between mx-5'>
                         <div>
                             <a href="/">
-                                <img src="image.decorative/Pachara.png" width={100} alt="Logo" />
                                 <h1 className='text-red-500'>Pachara</h1>
                             </a>
                         </div>
